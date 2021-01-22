@@ -2,7 +2,7 @@ cloudfront2loki
 ===============
 
 ## Description
-This is for consuming Cloudfront logs from s3 and pushing them to Loki.
+This is for consuming Cloudfront logs from s3 and pushing them to Loki. It parses the Cloudfront logs for timestamps and fields to use for Loki labels as well as convert the logs to json.
 
 ## Usage
 
